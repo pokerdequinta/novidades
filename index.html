@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Novidades 2026 — Poker de Quinta</title>
+
+  <!-- Anton para títulos/resumo -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!-- Material Icons do Google Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #192218;
+      --accent: #d4a121;
+      --resumo-green: #8ba965;
+      --card-bg: rgba(255,255,255,0.03);
+      --card-border: rgba(212,161,33,0.12);
+      --reg-bg: #d4a121;
+      --reg-color: #192218;
+      --max-width: 1040px;
+    }
+
+    * { box-sizing: border-box; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+    html,body { height:100%; margin:0; background:var(--bg); color:var(--resumo-green); font-family: "Aptos", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.45; }
+
+    .page { max-width:var(--max-width); margin:28px auto; padding:22px; }
+
+    .logo { display:flex; justify-content:center; align-items:center; margin-bottom:14px; }
+    .logo img { width:140px; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.6); border:2px solid rgba(212,161,33,0.12); background:rgba(255,255,255,0.02); object-fit:contain; }
+
+    h1 { margin:6px 0 18px; font-size:34px; text-align:center; color:var(--accent); font-family:"Anton", sans-serif; }
+
+    section.card { background:var(--card-bg); border:1px solid var(--card-border); border-radius:12px; padding:14px; margin:12px 0; display:flex; gap:14px; align-items:flex-start; box-shadow:0 6px 18px rgba(0,0,0,0.45); }
+
+    .icon { width:56px; min-width:56px; display:flex; align-items:center; justify-content:center; margin-top:2px; }
+    .icon .material-icons { font-size:44px; color:var(--resumo-green); }
+    .icon svg { width:44px; height:44px; }
+
+    .content { flex:1; min-width:0; }
+
+    section.card h2 { margin:0 0 8px; font-size:20px; color:var(--accent); font-family:"Anton", sans-serif; }
+
+    .resumo { font-family:"Anton", sans-serif; font-weight:800; color:var(--resumo-green); font-size:14px; margin:0 0 8px; display:inline-block; }
+
+    .card-text, .card-list { margin:0 0 10px 0; color:var(--resumo-green); font-family:"Aptos", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; font-weight:500; font-size:14px; }
+    .card-list { padding-left:18px; }
+    .card-list li { margin:6px 0; }
+
+    .note { font-size:13px; color: rgba(139,169,101,0.95); margin-top:6px; }
+
+    footer { margin-top:18px; text-align:center; color:rgba(139,169,101,0.9); font-size:13px; }
+
+    .reg-link { display:inline-block; margin-top:12px; padding:10px 16px; border-radius:8px; color:var(--reg-color); background:var(--reg-bg); text-decoration:none; font-weight:700; letter-spacing:0.6px; font-family:"Anton",sans-serif; }
+
+    @media (max-width:900px){
+      .page { padding:16px; margin:16px; }
+      h1 { font-size:30px; }
+      section.card { gap:12px; padding:12px; }
+      .icon { width:48px; min-width:48px; }
+      .icon .material-icons { font-size:36px; }
+      .icon svg { width:36px; height:36px; }
+      section.card h2 { font-size:18px; }
+    }
+    @media (max-width:520px){
+      h1 { font-size:26px; }
+      section.card { flex-direction: row; gap:10px; padding:10px; }
+      .icon { width:44px; min-width:44px; }
+      .icon .material-icons { font-size:32px; }
+      .icon svg { width:32px; height:32px; }
+      .resumo { font-size:13px; }
+      .card-text, .card-list { font-size:13px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <div class="logo" aria-hidden="true">
+      <img src="logo.png" alt="Logo Poker de Quinta">
+    </div>
+
+    <h1>Novidades 2026</h1>
+
+    <!-- Time Bank -->
+    <section class="card" id="time-bank">
+      <div class="icon" aria-hidden="true">
+        <!-- Cartão SVG -->
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ícone Cartão">
+          <rect x="8" y="12" width="48" height="32" rx="3" fill="none" stroke="#8ba965" stroke-width="2"/>
+          <rect x="10" y="18" width="44" height="6" fill="#8ba965" opacity="0.3"/>
+          <circle cx="18" cy="38" r="2" fill="#8ba965"/>
+          <circle cx="28" cy="38" r="2" fill="#8ba965"/>
+          <circle cx="38" cy="38" r="2" fill="#8ba965"/>
+          <circle cx="48" cy="38" r="2" fill="#8ba965"/>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Time Bank</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">O Time Bank foi formalizado: 30s padrão + 3 cartões pessoais (30s cada). O cronômetro inicia automaticamente ao término dos 30s iniciais; cartões são pessoais e sem reposição.</p>
+        <ul class="card-list">
+          <li>Entregar o cartão ao dealer para ativação; uso sucessivo até esgotamento.</li>
+          <li>Se usar 3 cartões na mesma rodada e não agir, mão considerada fold.</li>
+          <li>Cartões entregues ao dealer quando eliminado.</li>
+        </ul>
+        <p class="note">Impacto: padroniza decisões e reduz subjetividade do dealer.</p>
+      </div>
+    </section>
+
+    <!-- KO -->
+    <section class="card" id="knockout">
+      <div class="icon" aria-hidden="true">
+        <!-- Luva de boxe SVG -->
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ícone Knockout">
+          <g transform="translate(32,32)">
+            <!-- Pulso -->
+            <rect x="-8" y="12" width="16" height="8" fill="#8ba965" rx="2"/>
+            <!-- Corpo da luva -->
+            <ellipse cx="0" cy="-4" rx="14" ry="16" fill="#8ba965"/>
+            <!-- Destaque/relevo -->
+            <ellipse cx="0" cy="-6" rx="12" ry="14" fill="#a8c97a" opacity="0.6"/>
+            <!-- Detalhe central (costura) -->
+            <path d="M-8 -8 Q0 -14 8 -8" stroke="#d4a121" stroke-width="1.2" fill="none"/>
+            <!-- Dedos (nós) -->
+            <circle cx="-6" cy="-14" r="2.5" fill="#d4a121"/>
+            <circle cx="0" cy="-18" r="2.5" fill="#d4a121"/>
+            <circle cx="6" cy="-14" r="2.5" fill="#d4a121"/>
+          </g>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Sistema de Knockout (K.O.)</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Cada jogador inicia com 1 ficha K.O. (1 ponto). K.O.s são contabilizados apenas após o intervalo; ao eliminar, você recebe a ficha K.O. do eliminado, que soma ao seu total da etapa.</p>
+        <ul class="card-list">
+          <li>Fichas K.O. acompanham o stack; eliminações pré-intervalo não contam.</li>
+          <li>Em eliminações múltiplas, regra favorece quem iniciou a mão com maior stack.</li>
+          <li>Fichas recolhidas e registradas pelo dealer.</li>
+        </ul>
+        <p class="note">Impacto: incentiva agressividade e altera estratégias para o ranking.</p>
+      </div>
+    </section>
+
+    <!-- Rei -->
+    <section class="card" id="rei">
+      <div class="icon" aria-hidden="true">
+        <span class="material-icons">crown</span>
+      </div>
+      <div class="content">
+        <h2>Recompensa do "Rei" da mesa</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">O campeão anterior (Rei) começa com 2 fichas K.O.; títulos consecutivos dobram a recompensa. Quem eliminar o Rei recebe todas as fichas K.O. dele (contabilizadas após o intervalo). Se faltar, a recompensa passa adiante.</p>
+        <ul class="card-list">
+          <li>Recompensa dinâmica que torna o Rei alvo estratégico.</li>
+          <li>Recompensa dobra em títulos consecutivos.</li>
+        </ul>
+        <p class="note">Impacto: aumenta rivalidade e táticas de mesa.</p>
+      </div>
+    </section>
+
+    <!-- Roleta -->
+    <section class="card" id="roleta">
+      <div class="icon" aria-hidden="true">
+        <!-- Roleta SVG -->
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ícone Roleta">
+          <g transform="translate(32,32)">
+            <!-- Círculo externo -->
+            <circle cx="0" cy="0" r="18" fill="none" stroke="#8ba965" stroke-width="2"/>
+            <!-- Divisões da roleta -->
+            <line x1="0" y1="-18" x2="0" y2="18" stroke="#8ba965" stroke-width="1" opacity="0.5"/>
+            <line x1="-18" y1="0" x2="18" y2="0" stroke="#8ba965" stroke-width="1" opacity="0.5"/>
+            <line x1="-12.7" y1="-12.7" x2="12.7" y2="12.7" stroke="#8ba965" stroke-width="1" opacity="0.5"/>
+            <line x1="12.7" y1="-12.7" x2="-12.7" y2="12.7" stroke="#8ba965" stroke-width="1" opacity="0.5"/>
+            <!-- Centro -->
+            <circle cx="0" cy="0" r="3" fill="#d4a121"/>
+            <!-- Ponto indicador (topo) -->
+            <polygon points="0,-22 -3,-18 3,-18" fill="#d4a121"/>
+          </g>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Roleta da Sorte</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Ativada até o intervalo por "Quebrador de Ases" ou por mão escolhida em enquete; se ninguém atingir, o "Rei do Rebuy" gira a roleta. Prêmios variam entre fichas, K.O. e brindes.</p>
+        <ul class="card-list">
+          <li>Desempate por locurinha (duas cartas abertas + comunitárias).</li>
+          <li>Prêmios divertidos e variados para engajar a etapa.</li>
+        </ul>
+        <p class="note">Impacto: cria momentos de diversão e surpresa.</p>
+      </div>
+    </section>
+
+    <!-- Melhor Mão -->
+    <section class="card" id="melhor-mao">
+      <div class="icon" aria-hidden="true">
+        <span class="material-icons">emoji_events</span>
+      </div>
+      <div class="content">
+        <h2>Melhor Mão (recompensa)</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Melhor mão (mínimo Full House com showdown) ganha add-on grátis na etapa seguinte. Não vale para a última etapa; empate anula o prêmio. É obrigatório o showdown para validação.</p>
+        <p class="note">Impacto: incentiva showdowns e jogadas de alto valor.</p>
+      </div>
+    </section>
+
+    <!-- WhatsApp -->
+    <section class="card" id="whatsapp">
+      <div class="icon" aria-hidden="true">
+        <span class="material-icons">chat</span>
+      </div>
+      <div class="content">
+        <h2>Regras do WhatsApp reformuladas</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Proibidos conteúdo impróprio, anúncios, divulgação de eventos terceiros e listas de outros torneios. Permitida resenha sobre jogos. Infrações = remoção imediata. Permanência mínima removida; foco na conduta.</p>
+        <p class="note">Impacto: grupo mais limpo e focado no Poker de Quinta.</p>
+      </div>
+    </section>
+
+    <!-- Ranking -->
+    <section class="card" id="ranking">
+      <div class="icon" aria-hidden="true">
+        <span class="material-icons">leaderboard</span>
+      </div>
+      <div class="content">
+        <h2>Ranking Ampliado</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Ranking pontua até o 20º colocado e inclui a ficha K.O. (1 ponto). Critérios de desempate: pontos → participações → 1º lugares → K.O. acumulado → locurinha. Ranking divulgado no site oficial em até 7 dias úteis.</p>
+        <p class="note">Impacto: mais jogadores pontuam; K.O. passa a influenciar desempates.</p>
+      </div>
+    </section>
+
+    <!-- Premiação anual -->
+    <section class="card" id="premiacao-ano">
+      <div class="icon" aria-hidden="true">
+        <span class="material-icons">attach_money</span>
+      </div>
+      <div class="content">
+        <h2>Premiação em dinheiro — Top 5 do ano + Matador do K.O.</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Prêmios fixos para os 5 melhores do ranking no fim do ano e prêmio para o Matador do K.O. (quem eliminar mais). Valores oficiais: 1º R$600 / 2º R$450 / 3º R$360 / 4º R$270 / 5º R$180; Matador do K.O.: R$200.</p>
+        <p class="note">Impacto: recompensa consistência e eliminações ao longo da temporada.</p>
+      </div>
+    </section>
+
+    <!-- Capilé -->
+    <section class="card" id="capile">
+      <div class="icon" aria-hidden="true">
+        <span class="material-icons">handshake</span>
+      </div>
+      <div class="content">
+        <h2>Capilé e gorjeta</h2>
+        <p class="resumo">Resumo:</p>
+        <p class="card-text">Capilé é permitido, estritamente voluntário. A organização não intermedia, não recolhe e não se responsabiliza por acordos entre jogadores e dealers.</p>
+        <p class="note">Impacto: evita pressão e conflitos sobre gorjetas, mantendo a transparência.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div>Documento: Novidades 2026 — Extraído do regulamento oficial.</div>
+      <div style="margin-top:12px;">
+        <a class="reg-link" href="https://pokerdequinta.github.io/regulamento/" target="_blank" rel="noopener noreferrer">Acesse o Regulamento Aqui</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
